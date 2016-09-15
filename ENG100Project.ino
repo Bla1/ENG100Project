@@ -24,10 +24,10 @@ void loop() {
       digitalWrite(c, LOW);
   }
   //tone(10, n*100, 100); Grander plans that couldn't be implemented
-  if(n==255||n==0){ //hold for 2 seconds when at 255 or 0
+  if(n==255||n==0) //hold for 2 seconds when at 255 or 0
   delay(1900);
   //tone(10, n*100, 1900);
-  }
+  
   delay(100);
   //tone(10, n*100, 100);
 
